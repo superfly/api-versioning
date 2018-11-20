@@ -18,10 +18,7 @@ fly.http.respondWith(handler)
 const mounts = {
   '/api/v2': backends.generic("https://randomuser.me/api/1.2/", {'host': "randomuser.me"}),
   '/api/v1': backends.generic("https://randomuser.me/api/1.1/", {'host': "randomuser.me"}),
-  '/api/v0': backends.generic("https://randomuser.me/api/0.4/", {'host': "randomuser.me", 'API-version': "0.4: Nov 2017"}),
-  '/api/v0': backends.generic("https://randomuser.me/api/0.3/", {'host': "randomuser.me", 'API-version': "0.3: April 2016"}),
-  '/api/v0': backends.generic("https://randomuser.me/api/0.2/", {'host': "randomuser.me", 'API-version': "0.2: Jan 2015"}),
-  '/api/v0': backends.generic("https://randomuser.me/api/0.1/", {'host': "randomuser.me"}),
+  '/api/v0': backends.generic("https://randomuser.me/api/1.0/", {'host': "randomuser.me"}),
   '/': backends.generic("https://randomuser.me", {'host': "randomuser.me"})
 }
 
