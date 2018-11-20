@@ -20,7 +20,7 @@ www.example.com/api/v3 --> points to version 3
 
 *and so on...*
 
-## API versioning with A Fly Edge App
+## API versioning with a Fly Edge App
 
 Most Fly Edge Apps are made up of multiple backends. For example, you can have a static-page on GitHub for your marketing page, a Kubernetes cluster or Heroku deployment for your application, and a database management system or two for your data. You can apply this same logic to your API design.
 
