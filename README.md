@@ -38,7 +38,7 @@ and http://localhost:3000/api/v2 to see all the different versions of the API.
 
 ## How it works
 
-This example operates several different API endpoints. Each endpoint is "mounted" onto a different path name. The backend endpoint is received by making a proxy fetch to the origin server. The response from each proxy fetch is mounted onto its own path. To add another API version, simply add another path and endpoint to the `mount` variable (index.js line#18). And voila! You have all your different API versions under one hostname, easily accessible to you and your users.
+This example operates several different API endpoints. Each endpoint is "mounted" onto a different path name. The backend endpoint is received by making a proxy fetch to the origin server. The response from each proxy fetch is mounted onto its own path. To add another API version, simply add another path and endpoint to the `mount` variable ([index.js line#18-23](https://github.com/barnese3/api-versioning/blob/master/index.js#L18-L23)). And voila! You have all your different API versions under one hostname, easily accessible to you and your users.
 
 ## Summary
 
