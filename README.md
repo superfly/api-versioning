@@ -28,9 +28,9 @@ When you build an API, you receive scalability and load balancing benefits by de
 
 ## Run the example
 
-* Install Fly globally: `npm install -g @fly/fly`
-* Clone this repository and open it: `git clone`, `cd api-versioning`
-* Start the Fly server: `fly server`
+* Install Fly globally:  `npm install -g @fly/fly`
+* Clone this repository and open it:  `git clone`, `cd api-versioning`
+* Start the Fly server:  `fly server`
 
 Head to http://localhost:3000/api/v0, http://localhost:3000/api/v1, and http://localhost:3000/api/v2 to see all the differing versions of the API.
 
